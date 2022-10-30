@@ -38,17 +38,13 @@ ul {
     
 }
 
-.section {
-    padding: 47px 0;
-    
-}
+
 
 /* Header */
 
 
 .page-header {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-nav {
@@ -92,6 +88,11 @@ ul {
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
+}
+.header-nav .logo {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo-first {
@@ -165,6 +166,10 @@ ul {
 
 
 /* Переваги */
+.container.main-benefits {
+    padding: 94px 0;
+}
+
 .list-benefits {
     display: flex;
     align-items: flex-start;
@@ -214,6 +219,11 @@ ul {
     background-color: var(--background-color);
 }
 
+.command.section .container {
+    padding: 94px 0;
+}
+
+
 .list-job {
     display: flex;
     justify-content: space-between;
@@ -245,13 +255,29 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.command .employee-photo {
-    margin-bottom: 30px;
-}
+
 .command {
-    width: 1170px;
     background-color: var(--background-color);
 }
+
+.our-team.one,
+.our-team.three {
+    padding: 30px 70px;
+    background-color: var(--primary-white-color);
+}
+
+.our-team.two {
+    padding: 30px 61px 30px 62px;
+    background-color: var(--primary-white-color);
+}
+
+.our-team.four {
+    padding: 30px 62px 30px 63px;
+    background-color: var(--primary-white-color);
+}
+
+
+
 
 /* Button */
 .button {
@@ -272,11 +298,16 @@ ul {
 }
 .filter.portfolio {
     padding: 6px 25px;
+    margin-right: 8px;
 }
 
 
 .filter.portfolio-one {
     padding: 6px 22px;
+}
+
+.filter.portfolio-one.list {
+    margin-right: 8px;
 }
 
 .filter {
@@ -323,6 +354,7 @@ footer {
 }
 
 .logo.footer {
+    display: block;
     margin-bottom: 20px;
 
     color: var(--primary-white-color);
@@ -362,6 +394,7 @@ address {
     color: var(--accent-color);
 }
 
+
 .contacts {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
@@ -387,12 +420,16 @@ address {
 
 /* Portfolio */
 
+.section .container.menu {
+    padding: 94px 0;
+}
+
 .page-filter {
     display: flex;
-    width: 575px;
-    justify-content: space-between;
     margin-bottom: 50px;
 }
+
+
 .btn-filter {
     display: flex;
     justify-content: center;
@@ -402,20 +439,21 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-   
-    
-
 }
 
-.filter-link  {
+.page-link  {
     flex-basis: calc((100% - 60px) / 3);
-    
-   
-    border-bottom: 1px solid var(--border-color);
-    
+      
 } 
 
 
 .under-photo {
     padding: 20px 24px;
+    border-bottom: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
+
+img {
+    display: block;
 }
