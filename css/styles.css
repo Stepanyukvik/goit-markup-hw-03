@@ -166,8 +166,9 @@ ul {
 
 
 /* Переваги */
-.container.main-benefits {
-    padding: 94px 0;
+.benefits.section .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .list-benefits {
@@ -177,7 +178,7 @@ ul {
 }
     
 
-.benefits .title {
+.list-benefits .title {
     margin-top: 0;
     margin-bottom: 10px;
 
@@ -187,7 +188,7 @@ ul {
     text-transform: uppercase;
 }
 
-.benefits .about {
+.list-benefits .about {
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.71;
@@ -220,7 +221,8 @@ ul {
 }
 
 .command.section .container {
-    padding: 94px 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -421,7 +423,8 @@ address {
 /* Portfolio */
 
 .section .container.menu {
-    padding: 94px 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .page-filter {
