@@ -174,9 +174,12 @@ ul {
 .list-benefits {
     display: flex;
     align-items: flex-start;
-   
+    gap: 30px;  
 }
-    
+
+.list-benefits .item {
+    flex-basis: calc((100% - 90px) / 4);
+}
 
 .list-benefits .title {
     margin-top: 0;
@@ -195,9 +198,7 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.list-benefits .item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 
 /* Чим ми займаємося */
